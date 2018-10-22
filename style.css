@@ -28,7 +28,7 @@ body {
 ul {
     height: 100%;
     margin: 20px 0;
-    border: 3px solid white;
+    border: 2px solid white;
     list-style: none;
     padding-inline-start: 0;
 }
@@ -39,7 +39,7 @@ li {
     line-height: 30px;
     text-align: center;
     font-size: 16px;
-    border: 3px solid white;
+    border: 2px solid white;
 }
 
 .heading {
