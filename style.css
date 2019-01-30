@@ -27,6 +27,7 @@ ul {
     list-style: none;
     padding: 0;
     font-size: 0;
+    transition: .3s ease-in;
 }
 
 li {
@@ -36,6 +37,7 @@ li {
     text-align: center;
     font-size: 16px;
     border: 2px solid white;
+    transition: .3s ease-in;
 }
 
 .heading,

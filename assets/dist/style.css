@@ -1,0 +1,85 @@
+html {
+  height: 100%; }
+
+body {
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 20px solid #2c789e;
+  background: #3999c9;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box; }
+
+.wrapper {
+  width: 66%;
+  margin: 0 auto;
+  color: #fff; }
+
+.header {
+  padding: 15px 0; }
+  .header .heading,
+  .header .heading + .wi {
+    font-size: 26px;
+    margin: 0 15px 15px 0; }
+
+.cities {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  transition: .3s ease-in;
+  font-size: 0;
+  border: 3px solid white; }
+  .cities:hover .city {
+    opacity: 0.7; }
+  .cities .city:hover {
+    cursor: pointer;
+    opacity: 1; }
+
+.city {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 25px 0;
+  text-align: center;
+  border: 3px solid #fff;
+  width: 25%;
+  font-size: 20px;
+  transition: .3s ease-in-out; }
+  .city__name {
+    display: block;
+    font-weight: 700; }
+  .city__temp::after {
+    content: '\00B0 C'; }
+  .city--sm {
+    width: 25%; }
+  .city--md {
+    width: 50%; }
+  .city--lg {
+    width: 100%; }
+  .city--bg-blue {
+    background-color: #3999c9; }
+  .city--bg-aqua {
+    background-color: #3dccca; }
+  .city--bg-lilac {
+    background-color: #986697; }
+  .city--bg-red {
+    background-color: #c0484a; }
+  .city--bg-orange {
+    background-color: #e0684f; }
+  .city--bg-yellow {
+    background-color: #fecb6f; }
+  .city--bg-lime {
+    background-color: #9acc9b; }
+  .city--bg-olive {
+    background-color: #689898; }
+  .city--bg-pink {
+    background-color: #ca6899; }
+  .city--bg-green {
+    background-color: #389868; }
+  .city--bg-purple {
+    background-color: #666797; }
+
+.footer {
+  padding: 15px 0; }
+  .footer .caption {
+    font-size: 16px; }

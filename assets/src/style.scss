@@ -1,0 +1,134 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 20px solid rgb(44, 120, 158);
+    background: rgb(57, 153, 201);
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 66%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.header {
+    padding: 15px 0;
+
+    .heading,
+    .heading+.wi {
+        font-size: 26px;
+        margin: 0 15px 15px 0;
+    }
+}
+
+.cities {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    transition: .3s ease-in;
+    font-size: 0;
+    border: 3px solid white;
+
+    &:hover .city {
+        opacity: 0.7;
+    }
+
+    & .city:hover {
+        cursor: pointer;
+        opacity: 1;
+    }
+}
+
+.city {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 25px 0;
+    text-align: center;
+    border: 3px solid #fff;
+    width: 25%;
+    font-size: 20px;
+    transition: .3s ease-in-out;
+
+    &__name {
+        display: block;
+        font-weight: 700;
+    }
+
+    &__temp {
+        &::after {
+            content: '\00B0 C'
+        }
+    }
+
+    &--sm {
+        width: 25%;
+    }
+
+    &--md {
+        width: 50%;
+    }
+
+    &--lg {
+        width: 100%;
+    }
+
+    &--bg-blue {
+        background-color: rgb(57, 153, 201);
+    }
+
+    &--bg-aqua {
+        background-color: rgb(61, 204, 202);
+    }
+
+    &--bg-lilac {
+        background-color: rgb(152, 102, 151);
+    }
+
+    &--bg-red {
+        background-color: rgb(192, 72, 74);
+    }
+
+    &--bg-orange {
+        background-color: rgb(224, 104, 79);
+    }
+
+    &--bg-yellow {
+        background-color: rgb(254, 203, 111);
+    }
+
+    &--bg-lime {
+        background-color: rgb(154, 204, 155);
+    }
+
+    &--bg-olive {
+        background-color: rgb(104, 152, 152);
+    }
+
+    &--bg-pink {
+        background-color: rgb(202, 104, 153);
+    }
+
+    &--bg-green {
+        background-color: rgb(56, 152, 104);
+    }
+
+    &--bg-purple {
+        background-color: rgb(102, 103, 151);
+    }
+}
+
+.footer {
+    padding: 15px 0;
+
+    .caption {
+        font-size: 16px;
+    }
+}

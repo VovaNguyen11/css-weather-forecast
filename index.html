@@ -6,71 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Weather Forecast</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/dist/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.5/css/weather-icons.min.css">
 </head>
 
 <body>
-    <main class="content-wrapper">
-        <span class="heading">CSS Weather Forecast</span><i class="wi wi-day-sunny"></i>
-        <ul>
-            <li class="medium-tile">
-                <span class="city">Rome</span>
-                <span class="degrees">21&deg;C</span>
+    <main class="wrapper">
+        <header class="header">
+            <span class="heading">CSS Weather Forecast</span><i class="wi wi-day-sunny"></i>
+        </header>
+        <ul class="cities">
+            <li class="city city--md city--bg-blue">
+                <span class="city__name">Rome</span>
+                <span class="city__temp">21</span>
                 <i class="wi wi-day-sunny"></i>
             </li>
-            <li class="small-tile aqua">
-                <span class="city">Paris</span>
-                <span class="degrees">24&deg;C</span>
+            <li class="city city--sm city--bg-aqua">
+                <span class="city__name">Paris</span>
+                <span class="city__temp">24</span>
                 <i class="wi wi-day-hail"></i>
             </li>
-            <li class="small-tile lilac">
-                <span class="city">Kiev</span>
-                <span class="degrees">20&deg;C</span>
+            <li class="city city--sm city--bg-lilac">
+                <span class="city__name">Kiev</span>
+                <span class="city__temp">20</span>
                 <i class="wi wi-day-cloudy"></i>
             </li>
-            <li class="small-tile red">
-                <span class="city">Moscow</span>
-                <span class="degrees">15&deg;C</span>
+            <li class="city city--sm city--bg-red">
+                <span class="city__name">Moscow</span>
+                <span class="city__temp">15</span>
                 <i class="wi wi-day-rain-mix"></i>
             </li>
-            <li class="small-tile orange">
-                <span class="city">Madrid</span>
-                <span class="degrees">22&deg;C</span>
+            <li class="city city--sm city--bg-orange">
+                <span class="city__name">Madrid</span>
+                <span class="city__temp">22</span>
                 <i class="wi wi-day-sunny"></i>
             </li>
-            <li class="small-tile yellow">
-                <span class="city">London</span>
-                <span class="degrees">32&deg;C</span>
+            <li class="city city--sm city--bg-yellow">
+                <span class="city__name">London</span>
+                <span class="city__temp">32</span>
                 <i class="wi wi-hot"></i>
             </li>
-            <li class="small-tile light-green">
-                <span class="city">Beijing</span>
-                <span class="degrees">13&deg;C</span>
+            <li class="city city--sm city--bg-lime">
+                <span class="city__name">Beijing</span>
+                <span class="city__temp">13</span>
                 <i class="wi wi-day-sunny"></i>
             </li>
-            <li class="small-tile olive">
-                <span class="city">Sydney</span>
-                <span class="degrees">11&deg;C</span>
+            <li class="city city--sm city--bg-olive">
+                <span class="city__name">Sydney</span>
+                <span class="city__temp">11</span>
                 <i class="wi wi-day-lightning"></i>
             </li>
-            <li class="medium-tile pink">
-                <span class="city">California</span>
-                <span class="degrees">18&deg;C</span>
+            <li class="city city--md city--bg-pink">
+                <span class="city__name">California</span>
+                <span class="city__temp">18</span>
                 <i class="wi wi-day-showers"></i>
             </li>
-            <li class="small-tile green">
-                <span class="city">Tokyo</span>
-                <span class="degrees">22&deg;C</span>
+            <li class="city city--sm city--bg-green">
+                <span class="city__name">Tokyo</span>
+                <span class="city__temp">22</span>
                 <i class="wi wi-day-rain-wind"></i>
             </li>
-            <li class="big-tile purple">
-                <span class="city">Odessa</span>
-                <span class="degrees">19&deg;C</span>
+            <li class="city city--lg city--bg-purple">
+                <span class="city__name">Odessa</span>
+                <span class="city__temp">19</span>
                 <i class="wi wi-day-cloudy"></i>
             </li>
         </ul>
-        <p class="caption">Have a nice day!</p>
+        <footer class="footer">
+            <p class="caption">Have a nice day!</p>
+        </footer>
     </main>
 </body>
 
