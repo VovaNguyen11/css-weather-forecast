@@ -1,0 +1,70 @@
+{
+    "success": true,
+    "data": [{
+            "city": "Rome",
+            "temperature": 21,
+            "lat": 41.902782,
+            "lng": 12.496366
+        },
+        {
+            "city": "Paris",
+            "temperature": 24,
+            "lat": 48.864716,
+            "lng": 2.349014
+        },
+        {
+            "city": "Kiyv",
+            "temperature": 20,
+            "lat": 50.431782,
+            "lng": 30.516382
+        },
+        {
+            "city": "Moscow",
+            "temperature": 15,
+            "lat": 55.751244,
+            "lng": 37.618423
+        },
+        {
+            "city": "Madrid",
+            "temperature": 22,
+            "lat": 40.416775,
+            "lng": -3.703790
+        },
+        {
+            "city": "Buenos Aires",
+            "temperature": 32,
+            "lat": -34.603722,
+            "lng": -58.381592
+        },
+        {
+            "city": "Beijing",
+            "temperature": 13,
+            "lat": 39.913818,
+            "lng": 116.363625
+        },
+        {
+            "city": "Sydney",
+            "temperature": 11,
+            "lat": -33.865143,
+            "lng": 151.209900
+        },
+        {
+            "city": "California",
+            "temperature": 18,
+            "lat": 36.778259,
+            "lng": -119.417931
+        },
+        {
+            "city": "Hanoi",
+            "temperature": 22,
+            "lat": 21.028511,
+            "lng": 105.804817
+        },
+        {
+            "city": "Tokyo",
+            "temperature": 19,
+            "lat": 35.652832,
+            "lng": 139.839478
+        }
+    ]
+}

@@ -19,6 +19,7 @@ body {
   padding: 15px 0; }
   .header .heading,
   .header .heading + .wi {
+    display: inline-block;
     font-size: 26px;
     margin: 0 15px 15px 0; }
 
@@ -83,3 +84,18 @@ body {
   padding: 15px 0; }
   .footer .caption {
     font-size: 16px; }
+
+.map .gm-style-iw {
+  padding: 10px 0;
+  color: black;
+  font-size: 16px; }
+
+.map__heading {
+  font-size: 26px;
+  margin: 0;
+  padding: 15px 0; }
+
+.map__wrapper {
+  width: 100%;
+  min-height: 400px;
+  margin: 0 auto; }

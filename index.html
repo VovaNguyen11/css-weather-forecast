@@ -13,7 +13,7 @@
 <body>
     <main class="wrapper">
         <header class="header">
-            <span class="heading">CSS Weather Forecast</span><i class="wi wi-day-sunny"></i>
+            <h1 class="heading">CSS Weather Forecast</h1><i class="wi wi-day-sunny"></i>
         </header>
         <ul class="cities">
             <li class="city city--md city--bg-blue">
@@ -42,7 +42,7 @@
                 <i class="wi wi-day-sunny"></i>
             </li>
             <li class="city city--sm city--bg-yellow">
-                <span class="city__name">London</span>
+                <span class="city__name">Buenos Aires</span>
                 <span class="city__temp">32</span>
                 <i class="wi wi-hot"></i>
             </li>
@@ -62,20 +62,28 @@
                 <i class="wi wi-day-showers"></i>
             </li>
             <li class="city city--sm city--bg-green">
-                <span class="city__name">Tokyo</span>
+                <span class="city__name">Hanoi</span>
                 <span class="city__temp">22</span>
                 <i class="wi wi-day-rain-wind"></i>
             </li>
             <li class="city city--lg city--bg-purple">
-                <span class="city__name">Odessa</span>
+                <span class="city__name">Tokyo</span>
                 <span class="city__temp">19</span>
                 <i class="wi wi-day-cloudy"></i>
             </li>
         </ul>
-        <footer class="footer">
+        <!-- <footer class="footer">
             <p class="caption">Have a nice day!</p>
-        </footer>
+        </footer> -->
+        <section class="map">
+            <h2 class="map__heading">Weather Map</h2>
+            <div class="map__wrapper"></div>
+        </section>
     </main>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDU0-UZP3bAiUwOELr_wyaGbfIM6iCAwBU"></script>
+    <script src="assets/libs/jquery/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
