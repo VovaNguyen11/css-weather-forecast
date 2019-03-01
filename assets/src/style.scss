@@ -1,10 +1,6 @@
-html {
-    height: 100%;
-}
-
 body {
-    min-height: 100%;
-    padding: 0;
+    height: 100%;
+    padding: 15px 0;
     margin: 0;
     border: 20px solid rgb(44, 120, 158);
     background: rgb(57, 153, 201);
@@ -19,13 +15,13 @@ body {
 }
 
 .header {
-    padding: 15px 0;
+    margin-bottom: 15px;
 
     .heading,
     .heading+.wi {
         display: inline-block;
         font-size: 26px;
-        margin: 0 15px 15px 0;
+        margin: 0 15px 0 0;
     }
 }
 
@@ -69,77 +65,69 @@ body {
         }
     }
 
-    &--sm {
-        width: 25%;
-    }
-
-    &--md {
+    &:first-of-type {
         width: 50%;
-    }
-
-    &--lg {
-        width: 100%;
-    }
-
-    &--bg-blue {
         background-color: rgb(57, 153, 201);
     }
 
-    &--bg-aqua {
+    &:nth-child(2) {
         background-color: rgb(61, 204, 202);
     }
 
-    &--bg-lilac {
+    &:nth-child(3) {
         background-color: rgb(152, 102, 151);
     }
 
-    &--bg-red {
+    &:nth-child(4) {
         background-color: rgb(192, 72, 74);
     }
 
-    &--bg-orange {
+    &:nth-child(5) {
         background-color: rgb(224, 104, 79);
     }
 
-    &--bg-yellow {
+    &:nth-child(6) {
         background-color: rgb(254, 203, 111);
     }
 
-    &--bg-lime {
+    &:nth-child(7) {
         background-color: rgb(154, 204, 155);
     }
 
-    &--bg-olive {
+    &:nth-child(8) {
         background-color: rgb(104, 152, 152);
     }
 
-    &--bg-pink {
+    &:nth-child(9) {
+        width: 50%;
         background-color: rgb(202, 104, 153);
     }
 
-    &--bg-green {
+    &:nth-child(10) {
         background-color: rgb(56, 152, 104);
     }
 
-    &--bg-purple {
+    &:last-of-type {
+        width: 100%;
         background-color: rgb(102, 103, 151);
     }
 }
 
 .footer {
-    padding: 15px 0;
-
     .caption {
         font-size: 16px;
+        margin: 0;
     }
 }
 
 .map {
-    .gm-style-iw{
-        padding: 10px 0; 
+    margin-bottom: 15px;
+    .gm-style-iw {
+        padding: 10px 0;
         color: black;
         font-size: 16px;
     }
+
     &__heading {
         font-size: 26px;
         margin: 0;

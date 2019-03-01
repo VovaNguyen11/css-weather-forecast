@@ -1,9 +1,6 @@
-html {
-  height: 100%; }
-
 body {
-  min-height: 100%;
-  padding: 0;
+  height: 100%;
+  padding: 15px 0;
   margin: 0;
   border: 20px solid #2c789e;
   background: #3999c9;
@@ -16,12 +13,12 @@ body {
   color: #fff; }
 
 .header {
-  padding: 15px 0; }
+  margin-bottom: 15px; }
   .header .heading,
   .header .heading + .wi {
     display: inline-block;
     font-size: 26px;
-    margin: 0 15px 15px 0; }
+    margin: 0 15px 0 0; }
 
 .cities {
   list-style: none;
@@ -51,51 +48,47 @@ body {
     font-weight: 700; }
   .city__temp::after {
     content: '\00B0 C'; }
-  .city--sm {
-    width: 25%; }
-  .city--md {
-    width: 50%; }
-  .city--lg {
-    width: 100%; }
-  .city--bg-blue {
+  .city:first-of-type {
+    width: 50%;
     background-color: #3999c9; }
-  .city--bg-aqua {
+  .city:nth-child(2) {
     background-color: #3dccca; }
-  .city--bg-lilac {
+  .city:nth-child(3) {
     background-color: #986697; }
-  .city--bg-red {
+  .city:nth-child(4) {
     background-color: #c0484a; }
-  .city--bg-orange {
+  .city:nth-child(5) {
     background-color: #e0684f; }
-  .city--bg-yellow {
+  .city:nth-child(6) {
     background-color: #fecb6f; }
-  .city--bg-lime {
+  .city:nth-child(7) {
     background-color: #9acc9b; }
-  .city--bg-olive {
+  .city:nth-child(8) {
     background-color: #689898; }
-  .city--bg-pink {
+  .city:nth-child(9) {
+    width: 50%;
     background-color: #ca6899; }
-  .city--bg-green {
+  .city:nth-child(10) {
     background-color: #389868; }
-  .city--bg-purple {
+  .city:last-of-type {
+    width: 100%;
     background-color: #666797; }
 
-.footer {
-  padding: 15px 0; }
-  .footer .caption {
+.footer .caption {
+  font-size: 16px;
+  margin: 0; }
+
+.map {
+  margin-bottom: 15px; }
+  .map .gm-style-iw {
+    padding: 10px 0;
+    color: black;
     font-size: 16px; }
-
-.map .gm-style-iw {
-  padding: 10px 0;
-  color: black;
-  font-size: 16px; }
-
-.map__heading {
-  font-size: 26px;
-  margin: 0;
-  padding: 15px 0; }
-
-.map__wrapper {
-  width: 100%;
-  min-height: 400px;
-  margin: 0 auto; }
+  .map__heading {
+    font-size: 26px;
+    margin: 0;
+    padding: 15px 0; }
+  .map__wrapper {
+    width: 100%;
+    min-height: 400px;
+    margin: 0 auto; }
